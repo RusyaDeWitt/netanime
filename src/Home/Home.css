@@ -26,12 +26,17 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: transform .2s;
     background-color: transparent;
+    text-align: center;
 }
 
 .Cards:hover {
     transform: scale(1.2);
 }
 
+
+.rating {
+  display: inline-grid;
+}
 
 .footer {
   background-color: #343a40;
@@ -49,4 +54,12 @@
   text-decoration: none;
   margin: 5px 2px;
 
+}
+
+.checked {
+   color: orange;
+}
+
+.fa-star {
+  width: 2px;
 }

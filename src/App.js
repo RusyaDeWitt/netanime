@@ -3,6 +3,7 @@ import './App.css';
 
 import Home from './Home/Home.js';
 import Navigation from './Navigation/Navigation';
+import AnimePage from './AnimePage/AnimePage';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navigation />
       <Routes>
         <Route path="/" element={<Home/>} />
+        <Route path="/AnimePage" element={<AnimePage/>} />
       </Routes>
     </Router>
     </div>

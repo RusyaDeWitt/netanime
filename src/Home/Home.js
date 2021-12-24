@@ -1,10 +1,10 @@
 import react from 'react';
 import { Container , Carousel , Card, Button } from 'react-bootstrap';
-
 import './Home.css'
 
 
 function Home(){
+
   return(
     <div className="Home">
       <Carousel fade className="carousel">
@@ -47,44 +47,68 @@ function Home(){
 
         <Container className="List">
         <Card className="Cards" style={{width:'250px', textAlign:'center', alignItems:'center'}}>
-            <Card.Img  className="car-photo"  src="https://yummyanime.info/img/posters/1633255013.jpg"/>
+            <a href="/AnimePage"><Card.Img  className="car-photo"  src="https://yummyanime.info/img/posters/1633255013.jpg" /></a>
             <Card.Body>
                 <Card.Title>Deji Meets Girl</Card.Title>
+                <div className="rating">
+                  <span class="fa fa-star checked"></span>
+                  <h3>8/10</h3>
+                </div>
             </Card.Body>
         </Card>
 
         <Card className="Cards" style={{width:'250px', textAlign:'center', alignItems:'center'}}>
-            <Card.Img  className="car-photo"  src="https://yummyanime.info/img/posters/1594480965.jpg"/>
+            <a href="/AnimePage"><Card.Img  className="car-photo"  src="https://yummyanime.info/img/posters/1594480965.jpg"/></a>
             <Card.Body>
                 <Card.Title>Words Bubble Up Like Soda Pop</Card.Title>
+                <div className="rating">
+                  <span class="fa fa-star checked"></span>
+                  <h3>7/10</h3>
+                </div>
             </Card.Body>
         </Card>
 
         <Card className="Cards" style={{width:'250px', textAlign:'center', alignItems:'center'}}>
-            <Card.Img  className="car-photo"  src="https://yummyanime.info/img/posters/1562334009.jpg"/>
+            <a href="/AnimePage"><Card.Img  className="car-photo"  src="https://yummyanime.info/img/posters/1562334009.jpg"/></a>
             <Card.Body>
                 <Card.Title>A Silent Voice</Card.Title>
+                <div className="rating">
+                  <span class="fa fa-star checked"></span>
+                  <h3>8/10</h3>
+                </div>
             </Card.Body>
         </Card>
 
         <Card className="Cards" style={{width:'250px', textAlign:'center', alignItems:'center'}}>
-            <Card.Img  className="car-photo"  src="https://yummyanime.info/img/posters/1567877240.jpg"/>
+            <a href="/AnimePage"><Card.Img  className="car-photo"  src="https://yummyanime.info/img/posters/1567877240.jpg"/></a>
             <Card.Body>
                 <Card.Title>The Pet Girl of Sakurasou</Card.Title>
+                <div className="rating">
+                  <span class="fa fa-star checked"></span>
+                  <h3>6/10</h3>
+                </div>
             </Card.Body>
         </Card>
 
         <Card className="Cards" style={{width:'250px', textAlign:'center', alignItems:'center'}}>
-            <Card.Img  className="car-photo"  src="https://yummyanime.info/img/posters/1568207901.jpg"/>
+            <a href="/AnimePage"><Card.Img  className="car-photo"  src="https://yummyanime.info/img/posters/1568207901.jpg"/></a>
             <Card.Body>
                 <Card.Title>Your Lie in April</Card.Title>
+                <div className="rating">
+                  <span class="fa fa-star checked"></span>
+                  <h3>9/10</h3>
+                </div>
             </Card.Body>
         </Card>
 
         <Card className="Cards" style={{width:'250px', textAlign:'center', alignItems:'center'}}>
-            <Card.Img  className="car-photo"  src="https://yummyanime.info/img/posters/1570884898.jpg"/>
+            <a href="/AnimePage"><Card.Img  className="car-photo"  src="https://yummyanime.info/img/posters/1570884898.jpg"/></a>
             <Card.Body>
                 <Card.Title>Plastic Memories</Card.Title>
+                <div className="rating">
+                  <span class="fa fa-star checked"></span>
+                  <h3>4/10</h3>
+                </div>
             </Card.Body>
         </Card>
       </Container>
