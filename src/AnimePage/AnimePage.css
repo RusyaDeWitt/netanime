@@ -3,6 +3,16 @@
   margin-top: 100px;
 }
 
+.main {
+  display: flex;
+  justify-content: space-between;
+  color: white
+}
+
+.detail__description {
+  margin-top: 60px;
+}
+
 
 @media screen and (max-width: 700px) {
   .container-fluid {

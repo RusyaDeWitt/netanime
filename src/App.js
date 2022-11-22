@@ -12,7 +12,7 @@ function App() {
       <Navigation />
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/AnimePage" element={<AnimePage/>} />
+        <Route path="/AnimePage/:name" element={<AnimePage/>} />
       </Routes>
     </Router>
     </div>
