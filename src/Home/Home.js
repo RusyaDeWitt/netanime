@@ -39,12 +39,12 @@ function Home() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://images2.alphacoders.com/229/thumb-1920-229932.jpg"
+            src="https://images4.alphacoders.com/112/thumb-1920-1126211.jpg"
             alt="Third slide"
           />
 
           <Carousel.Caption>
-            <h3>DxD</h3>
+            <h3>Chainsaw man</h3>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

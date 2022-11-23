@@ -25,8 +25,8 @@ function AnimePage() {
 
   const episodeList = animeDetail.episodesList?.map((episode) => {
     return (
-      <a key={episode.episodeId} href={episode.episodeUrl}>
-        {episode.episodeNum}
+      <a key={episode.episodeId} href={episode.episodeUrl} target="_blank" rel="noopener noreferrer">
+        Episode: <b>{episode.episodeNum}</b>
       </a>
     );
   });
@@ -49,7 +49,10 @@ function AnimePage() {
               </div>
             </div>
           </div>
-          <div className="detail__episodes">{episodeList}</div>
+          <div className="detail__episodes">
+            <h4>All episodes</h4>
+            <div className="detail__episodes_items">{episodeList}</div>
+          </div>
         </Container>
       ) : (
         <Spinner
