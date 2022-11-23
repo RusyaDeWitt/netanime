@@ -60,7 +60,7 @@ function AnimePage() {
         show={isOpen}
         hide={() => setIsOpen(false)}
       >
-        <Modal.Header closeButton>
+        <Modal.Header>
           <Modal.Title>Episode: {selectedEpisode.episodeNum}</Modal.Title>
         </Modal.Header>
         <Modal.Body style={{ width: "100vw", height: "100vh" }}>
@@ -68,6 +68,9 @@ function AnimePage() {
             <Iframe height="100%" width="100%" url={episodeUrl.Referer} />
           )}
         </Modal.Body>
+        <Button onClick={() => setIsOpen(false)} varian="danger">
+          Close
+        </Button>
       </Modal>
       {animeDetail.episodesList ? (
         <Container fluid>
