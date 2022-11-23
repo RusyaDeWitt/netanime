@@ -21,9 +21,16 @@ function AnimePage() {
     axios
       .get(`https://gogoanime.consumet.org/anime-details/${name}`)
       .then((response) => setAnimeDetail(response.data));
-  }, []);
+  }, [name]);
 
-  console.log(animeDetail.episodesList);
+  const episodeList = animeDetail.episodesList?.map((episode) => {
+    return (
+      <a key={episode.episodeId} href={episode.episodeUrl}>
+        {episode.episodeNum}
+      </a>
+    );
+  });
+
   return (
     <div className="AnimePage">
       {animeDetail.episodesList ? (
@@ -42,13 +49,7 @@ function AnimePage() {
               </div>
             </div>
           </div>
-          {animeDetail.episodesList &&
-            animeDetail.episodesList.forEach((episode) => {
-              <Row>
-                <a href={episode.episodeUrl}>{episode.episodeNum}</a>;
-              </Row>;
-            })}
-          <div className="detail__episodes"></div>
+          <div className="detail__episodes">{episodeList}</div>
         </Container>
       ) : (
         <Spinner
