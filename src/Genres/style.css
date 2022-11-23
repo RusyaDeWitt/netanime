@@ -1,0 +1,11 @@
+.content {
+  color: white;
+  font-family: "Verdana", sans-serif;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.carousel{
+  display: flex;
+  align-items: center;
+}

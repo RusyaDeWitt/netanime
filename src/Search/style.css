@@ -1,0 +1,19 @@
+.content {
+  color: white;
+  font-family: "Verdana", sans-serif;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.search__input {
+  height: 40px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 20px;
+}
