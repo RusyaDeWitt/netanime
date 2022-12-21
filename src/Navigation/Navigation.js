@@ -17,7 +17,7 @@ function Navigation() {
           <Nav className="links">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/Search">Search</Nav.Link>
-            <Nav.Link href="/">Top 10</Nav.Link>
+            <Nav.Link href="/Movies">Movies</Nav.Link>
             <Nav.Link href="/Genres">Genres</Nav.Link>
           </Nav>
         </Navbar.Collapse>

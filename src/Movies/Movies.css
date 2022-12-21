@@ -1,0 +1,66 @@
+.Home-Content {
+  color: white;
+  font-family: "Verdana", sans-serif;
+  margin-top: 50px;
+  text-align: left;
+}
+
+
+.List {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Cars {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+
+
+.Cards {
+    margin: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform .2s;
+    background-color: transparent;
+    text-align: center;
+}
+
+.Cards:hover {
+    transform: scale(1.2);
+}
+
+
+.rating {
+  display: inline-grid;
+}
+
+.footer {
+  background-color: #343a40;
+  height:100px;
+  margin-top: 100px;
+  display: block;
+}
+
+.fa {
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+
+}
+
+.checked {
+   color: orange;
+}
+
+.fa-star {
+  width: 2px;
+}
+
