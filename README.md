@@ -12,4 +12,3 @@ This is simple anime Website
 
 # Members
 - Kashayev Ruslan
-- Saudabekov Alan
